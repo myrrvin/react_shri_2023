@@ -1,0 +1,22 @@
+.cart {
+	flex: 1 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.count-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 24px;
+
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.hello {
+	flex: 1 1 auto;
+}

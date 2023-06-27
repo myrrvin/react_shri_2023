@@ -1,0 +1,27 @@
+.container {
+	width: 100%;
+
+	border-radius: 8px;
+	background-color: #fff;
+	user-select: none;
+
+	overflow: hidden;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+
+	padding: 24px;
+}
+
+.content-container {
+	max-height: 0;
+	overflow: hidden;
+
+	transition: all ease 500ms;
+}
+
+.content {
+	padding: 0 24px 24px 24px;
+}

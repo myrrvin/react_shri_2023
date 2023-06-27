@@ -1,0 +1,44 @@
+.review {
+	display: flex;
+	gap: 32px;
+
+	padding: 24px;
+
+	background-color: #fff;
+	border-radius: 8px;
+}
+.avatar {
+	border-radius: 8px;
+	object-fit: cover;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	flex: 1 1 auto;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	line-height: 32px;
+	font-size: 20px;
+	font-size: 20px;
+}
+.title {
+	font-weight: 600;
+}
+.rating-container {
+	display: flex;
+	gap: 8px;
+}
+.rating-title {
+}
+.rating-mark {
+	font-weight: 600;
+}
+.text {
+	font-size: 16px;
+
+	line-height: 24px;
+}

@@ -1,0 +1,21 @@
+.filter {
+	width: 360px;
+	height: 40px;
+
+	padding: 10px 16px;
+
+	font-size: 14px;
+	line-height: 20px;
+
+	border: #999fa6 solid 1px;
+	outline: none;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.drop-down {
+	position: absolute;
+
+	display: flex;
+	flex-direction: column;
+}
